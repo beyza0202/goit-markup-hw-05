@@ -21,14 +21,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
   </head>
   <body>
-
     <svg style="display: none">
-        <use href="./images/icons/symbol-defs.svg"></use>
-      </svg>
-  
+      <use href="./images/icons/symbol-defs.svg"></use>
+    </svg>
 
     <!-- HEADER -->
     <header class="header">
@@ -43,7 +40,6 @@
             <li><a href="#" class="nav-link current">Studio</a></li>
             <li><a href="#" class="nav-link">Portfolio</a></li>
             <li><a href="#" class="nav-link contacts-open">Contacts</a></li>
-
           </ul>
         </nav>
 
@@ -511,22 +507,27 @@
               </a>
             </li>
             <div class="subscribe-container">
-                <p class="subscribe-title">Subscribe</p>
-              
-                <form class="subscribe-form">
-                  <label>
-                    <input type="email" name="email" placeholder="E-mail" required />
-                  </label>
-              
-                  <button type="submit" class="subscribe-btn">
-                    Subscribe
-                    <svg class="icon" width="24" height="24">
+              <p class="subscribe-title">Subscribe</p>
 
-                        <use href="./images/icons/symbol-defs.svg#icon-Frame-3"></use>
+              <form class="subscribe-form">
+                <label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </label>
 
-                    </svg>
-                  </button>
-                </form>
+                <button type="submit" class="subscribe-btn">
+                  Subscribe
+                  <svg class="icon" width="24" height="24">
+                    <use
+                      href="./images/icons/symbol-defs.svg#icon-Frame-3"
+                    ></use>
+                  </svg>
+                </button>
+              </form>
             </div>
           </ul>
         </div>
@@ -534,82 +535,91 @@
     </footer>
 
     <div class="backdrop is-hidden">
-        <div class="modal">
-            <button class="modal-close">✕</button>
-          
-            <h2 class="modal-title">
-              Leave your contacts and we will call you back
-            </h2>
-          
-            <form class="modal-form">
-                <!-- Name -->
-                <label class="modal-input-wrap">
-                  <span class="modal-label">Name</span>
-                  <input type="text" class="modal-input" placeholder="" />
-                  <svg class="modal-input-icon" width="20" height="20">
-                    <use href="./images/icons/symbol-defs.svg#icon-user"></use>
-                  </svg>
-                </label>
-              
-                <!-- Phone -->
-                <label class="modal-input-wrap">
-                  <span class="modal-label">Phone</span>
-                  <input type="tel" class="modal-input" placeholder="" />
-                  <svg class="modal-input-icon" width="20" height="20">
-                    <use href="./images/icons/symbol-defs.svg#icon-phone-black-18dp-1"></use>
-                  </svg>
-                </label>
-              
-                <!-- Email -->
-                <label class="modal-input-wrap">
-                  <span class="modal-label">Email</span>
-                  <input type="email" class="modal-input" placeholder="example@mail.com" />
-                  <svg class="modal-input-icon" width="20" height="20">
-                    <use href="./images/icons/symbol-defs.svg#icon-email-black-18dp-1"></use>
-                  </svg>
-                </label>
-              
-                <!-- Comment -->
-                <label class="modal-input-wrap">
-                  <span class="modal-label">Comment</span>
-                  <textarea class="modal-textarea" placeholder="Text input"></textarea>
-                </label>
-              
-                <!-- Checkbox + privacy -->
-                <label class="modal-privacy">
-                  <input type="checkbox" class="modal-privacy-input" />
-                  <span class="modal-privacy-box">
-                    <svg class="modal-privacy-check" width="10" height="8">
-                      <use href="./images/icons/symbol-defs.svg#icon-check"></use>
-                    </svg>
-                  </span>
-                  <span class="modal-privacy-text">
-                    I accept the terms and conditions of the
-                    <a href="#" class="modal-privacy-link">Privacy Policy</a>
-                  </span>
-                </label>
-              
-                <!-- SEND BUTONU -->
-                <button type="submit" class="form-submit">Send</button>
-              </form>
-              
-          </div>
-          
+      <div class="modal">
+        <button class="modal-close">✕</button>
+
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+
+        <form class="modal-form">
+          <!-- Name -->
+          <label class="modal-input-wrap">
+            <span class="modal-label">Name</span>
+            <input type="text" class="modal-input" placeholder="" />
+            <svg class="modal-input-icon" width="20" height="20">
+              <use href="./images/icons/symbol-defs.svg#icon-user"></use>
+            </svg>
+          </label>
+
+          <!-- Phone -->
+          <label class="modal-input-wrap">
+            <span class="modal-label">Phone</span>
+            <input type="tel" class="modal-input" placeholder="" />
+            <svg class="modal-input-icon" width="20" height="20">
+              <use
+                href="./images/icons/symbol-defs.svg#icon-phone-black-18dp-1"
+              ></use>
+            </svg>
+          </label>
+
+          <!-- Email -->
+          <label class="modal-input-wrap">
+            <span class="modal-label">Email</span>
+            <input
+              type="email"
+              class="modal-input"
+              placeholder="example@mail.com"
+            />
+            <svg class="modal-input-icon" width="20" height="20">
+              <use
+                href="./images/icons/symbol-defs.svg#icon-email-black-18dp-1"
+              ></use>
+            </svg>
+          </label>
+
+          <!-- Comment -->
+          <label class="modal-input-wrap">
+            <span class="modal-label">Comment</span>
+            <textarea
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+
+          <!-- Checkbox + privacy -->
+          <label class="modal-privacy">
+            <input type="checkbox" class="modal-privacy-input" />
+            <span class="modal-privacy-box">
+              <svg class="modal-privacy-check" width="10" height="8">
+                <use href="./images/icons/symbol-defs.svg#icon-check"></use>
+              </svg>
+            </span>
+            <span class="modal-privacy-text">
+              I accept the terms and conditions of the
+              <a href="#" class="modal-privacy-link">Privacy Policy</a>
+            </span>
+          </label>
+
+          <!-- SEND BUTONU -->
+          <button type="submit" class="form-submit">Send</button>
+        </form>
       </div>
-      
+    </div>
+
     <script>
-        const openModal = document.querySelector('.contacts-open');
-        const modal = document.querySelector('.backdrop');
-        const closeModal = document.querySelector('.modal-close');
-      
-        openModal.addEventListener('click', (e) => {
-          e.preventDefault();
-          modal.classList.remove('is-hidden');
-        });
-      
-        closeModal.addEventListener('click', () => {
-          modal.classList.add('is-hidden');
-        });
-      </script>
+      const openModal = document.querySelector(".contacts-open");
+      const modal = document.querySelector(".backdrop");
+      const closeModal = document.querySelector(".modal-close");
+
+      openModal.addEventListener("click", (e) => {
+        e.preventDefault();
+        modal.classList.remove("is-hidden");
+      });
+
+      closeModal.addEventListener("click", () => {
+        modal.classList.add("is-hidden");
+      });
+    </script>
   </body>
 </html>
